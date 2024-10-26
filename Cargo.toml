@@ -1,0 +1,8 @@
+[package]
+name = "tdashmap"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+dashmap = "6.1.0"
+tokio = { version = "1.41.0", features = ["rt", "time"] }
